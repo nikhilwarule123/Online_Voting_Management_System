@@ -1,0 +1,47 @@
+.custom-container {
+    margin: 30px auto;
+    max-width: 95%;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.approve-btn,
+.reject-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.approve-btn {
+    background-color: #28a745;
+}
+
+.reject-btn {
+    background-color: #dc3545;
+}

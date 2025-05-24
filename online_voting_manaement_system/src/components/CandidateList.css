@@ -1,0 +1,34 @@
+.candidate-form {
+    text-align: center;
+
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+    font-family: Arial, sans-serif;
+}
+
+.candidate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.candidate-table th,
+.candidate-table td {
+    padding: 12px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.candidate-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+.candidate-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
